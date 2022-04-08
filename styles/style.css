@@ -1,0 +1,143 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: rgb(38, 39, 39);
+}
+
+#title {
+    color: #FDFDFD;
+    text-align: center;
+    font-size: 24px;
+    opacity: 100%;
+    font-weight: 900;
+    margin: 50px 0 -50px 0;
+}
+
+.icon {
+    height: 128px;
+    width: 128px;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+    box-shadow: 0 0 15px darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player-options button:hover {
+    border: 1px solid lightgray;
+}
+
+#player-options button:active {
+    transform: scale(96%);
+    transition: 0.1s;
+}
+
+
+
+img {
+    height: 75%;
+    width: 75%;
+    opacity: 100%;
+}
+
+.large {
+    width: 256px;
+    height: 256px;
+    box-shadow: none;
+    filter: invert(100%);
+}
+
+button {
+    border: none;
+    background: forestgreen;
+}
+
+#main-container {
+    background: #FDFDFD;
+    display: flex;
+    width: 60vw;
+    height: 60vh;
+    margin: 10vh auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px darkgray;
+}
+
+#left-side {
+    flex: 1;
+}
+
+#player-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+
+#right-side {
+    margin-right: 5%;
+    flex: 3;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#score {
+    align-self: flex-end;
+    font-weight: 700;
+    color: #35343b;
+}
+
+#game-window {
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: none;
+    height: 80%;
+    margin-right: 8%;
+}
+
+#text-window {
+    flex: 1;
+    align-self: center;
+    justify-content: center;
+    font-size: 18px;
+    font-style: italic;
+    color: #35343b;
+    width: 60%;
+    height: 25%;
+    text-align: center;
+    margin-right: 10%;
+}
+
+#reset-button {
+    align-self: flex-end;
+    height: 35px;
+    width: 100px;
+    background: forestgreen;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 15px;
+}
+
+#reset-button:hover {
+    background: darkgreen;
+}
+
+#reset-button:active {
+    transform: scale(0.95);
+    transition: 0.05s;
+}
+
+#vs-text {
+    font-weight: 900;
+    font-size: 26px;
+    color: #35343b;
+}
